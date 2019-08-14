@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 <head>
   <title>States Visited in United-states</title>
+<<<<<<< HEAD
   <!--External CSS file added-->
   <link rel="stylesheet" href="MapStyle.css">
   <script src="http://d3js.org/d3.v5.min.js"></script>
@@ -19,6 +20,22 @@
 
     <!--Calls myFunction Function on selecting any of the dropdowns-->
     <div id="Dropdown">
+=======
+  <link rel="stylesheet" href="MapStyle.css">  <!--Linking the CSS file-->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <script src="USstateMap.js"></script> <!--Linking the Javascript file-->
+<div id="box1">
+    <div class ="Headings">
+      <h1 class="heading1">USA</h1>
+      <h2 class="heading2">Let's Go Places</h1>
+    </div>
+
+    <div id="Dropdown">
+	<!--Call myFunction() on selecting any one of the below states-->
+>>>>>>> 97e0cac0c8a429634f71a336f74b2f3da4f361d7
       <select id="StateDrpdwn" onchange="myFunction()"> 
         <option value="States">States</option>
         <option value="New York">New-York</option>
@@ -28,6 +45,7 @@
       </select>
   </div>
 
+<<<<<<< HEAD
   <!--Input text box which takes user input for newly visited states inside USA-->
   <div class="Form">  
       <form id="myForm" >
@@ -39,6 +57,16 @@
   </div>
 
 <!--Two HTML layouts are created-> To contain Image and the Map-->
+=======
+  <div class="Form">
+      <form id="myForm" >
+          Enter a new state you visited: <input type="text" name="fname" ><br>
+        </form> 
+        <button onclick="EnterState()">Enter</button>
+        <p id="NewState"></p>
+  </div>
+
+>>>>>>> 97e0cac0c8a429634f71a336f74b2f3da4f361d7
 <div class="column right">      
   <div id="myImg">
   <p id="demo">
@@ -49,7 +77,11 @@
 
 <div class="column left"> 
 <div id="content">
+<<<<<<< HEAD
   <svg width="770px" height="450px">
+=======
+  <svg width="670px" height="450px">
+>>>>>>> 97e0cac0c8a429634f71a336f74b2f3da4f361d7
     <g class="map"></g>
     <text class="txt"></text>
     <g class="centroid"><circle r="4"></circle></g>
@@ -57,7 +89,10 @@
 </div>
 </div>
 
+<<<<<<< HEAD
 <!--Complete description of the Visualization-->
+=======
+>>>>>>> 97e0cac0c8a429634f71a336f74b2f3da4f361d7
 <div class="text">
   <p><em><b>Let's Go Places!!</b> </em> <br> This page shows all the beautiful places I have visited in US. To build this visualization I have used 
     two kind of files. A GeoJson file <b>us-states.json</b> to map US-state boundries taken from one of the <em>Mike Bostock's</em> examples.
@@ -82,4 +117,8 @@
   </div>
 </div>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 97e0cac0c8a429634f71a336f74b2f3da4f361d7
