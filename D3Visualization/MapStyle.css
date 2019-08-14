@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(192, 32, 32);
+    border: 2px solid;
+    margin-left: 20px;
+  }
+  
+  #content .map path {
+    fill: #aaa;
+    stroke: #fff;
+  }
+
+  .Headings{
+    background-color: #404040;
+    padding: 5px;
+    line-height:3px;
+    color: white;
+  }
+
+  .heading1{
+    font-size:40px;
+    font-family:"Helvetica Neue";
+  }
+
+  .heading2{
+    font-size:20px;
+    font-family:"Helvetica Neue";
+  }
+ 
+  #Dropdown{
+    background-color: #999999;
+    cursor: pointer;
+ 
+  }
+  .Dropdown:hover {
+    background-color: #2980B9;
+  }
+  #Dropdown select{
+    color:white;
+    border-style: solid; 
+    background: #333;
+    font-size: 16px;
+    }
+
+    .Form {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-left: 15px;
+    }
+
+    .column {
+      float: left;
+    }
+    
+    .left {
+      width: 65%;
+    }
+
+    .right{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("niagara_falls_edited.jpg");
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      position: relative;
+      width: 35%;
+    }
+    
+    div#myImg{
+      padding-left: 10px;
+    }
+
+   #demo{
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    div.text{
+      color: black;
+      padding-left: 20px;
+    }
